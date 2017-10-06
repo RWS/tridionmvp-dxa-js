@@ -66,6 +66,10 @@ DXAJS.Controllers = {
   },
   mount(htmlNode, view) {
     htmlNode.innerHTML = view;
+
+    document.querySelectorAll('a[href]:not([href=""]').forEach((link) => {
+        link.addEventListener("click", DXAJS.RouteHandler, false);
+    });
   },
 
 };
