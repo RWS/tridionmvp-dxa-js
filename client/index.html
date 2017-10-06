@@ -17,8 +17,16 @@
 
         <main data-region="Main">
 
-        </main>
-        <script type="module" src="assets/js/controllers.js">
+        </main>            
+        <script type="text/javascript" src="build/dxajs.js">
+        </script>
+
+        <script type="text/javascript">
+        window.onload = function () {
+            DXAJS.Controllers.init();
+
+        }
+
         </script>
     </body>
 </html>

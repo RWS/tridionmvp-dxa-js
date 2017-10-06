@@ -1,5 +1,3 @@
-import {Region} from "./view.js";
-
 
 const demoData = {
     Headline: "Hello World",
@@ -21,10 +19,18 @@ const demoData = {
     ]
 };
 
+DXAJS.Controllers = {
+  init() {
+    const articlePresentation = DXAJS.Views.Article(demoData);
+    console.log(articlePresentation);
+    
+    DXAJS.Controllers.mount(document.body, articlePresentation);
+  },
+  getRegions() {
+    return [...document.querySelectorAll('[data-region]')];
+  },
+  mount(htmlNode, view) {
+    htmlNode.innerHTML = view;
+  },
 
-
-const templDemo = new Article(demoData);
-
-templDemo.mount(document.body);
-
-
+};

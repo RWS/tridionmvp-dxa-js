@@ -1,0 +1,1478 @@
+{
+    "Id": "1826",
+    "StructureGroupId": "399",
+    "Meta": {
+        "og:type": "article",
+        "twitter:card": "summary",
+        "og:title": "Home",
+        "og:locale": "en-US",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper ex tortor, a ullamcorper sem venenatis sed. In interdum leo eu orci pharetra luctus. Nulla ut blandit urna, ac maximus mauris.",
+        "sitemapKeyword": "000 Home",
+        "og:description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper ex tortor, a ullamcorper sem venenatis sed. In interdum leo eu orci pharetra luctus. Nulla ut blandit urna, ac maximus mauris."
+    },
+    "PageTemplate": {
+        "Id": "1632",
+        "Title": "Home Page",
+        "FileExtension": "html",
+        "RevisionDate": "2017-10-05T14:00:02.503Z",
+        "Metadata": {
+            "view": "GeneralPage",
+            "includes": {
+                "$type": "String[]",
+                "$values": ["system/include/header", "system/include/footer"]
+            }
+        }
+    },
+    "Title": "Home",
+    "Regions": [{
+        "MvcData": {
+            "ViewName": "Hero"
+        },
+        "Name": "Hero",
+        "Entities": [{
+            "SchemaId": "1648",
+            "XpmMetadata": {
+                "ComponentID": "tcm:33-1864",
+                "ComponentModified": "2017-10-05T14:00:52.083",
+                "ComponentTemplateID": "tcm:33-1780-32",
+                "ComponentTemplateModified": "2017-10-05T14:00:32.683",
+                "IsRepositoryPublished": false
+            },
+            "MvcData": {
+                "ViewName": "Carousel"
+            },
+            "Id": "1864",
+            "ComponentTemplate": {
+                "Id": "1780",
+                "Title": "Carousel [Hero]",
+                "RevisionDate": "2017-10-05T14:00:32.683Z",
+                "OutputFormat": "HTML Fragment",
+                "Metadata": {
+                    "view": "Carousel",
+                    "regionView": "Hero"
+                }
+            },
+            "LinkUrl": "http://staging",
+            "Content": {
+                "itemListElement": {
+                    "$type": "ContentModelData[]",
+                    "$values": [{
+                        "link": {
+                            "$type": "ContentModelData",
+                            "linkText": "Discover More",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros. ",
+                                        "introText": "Useful information about our company "
+                                    }
+                                },
+                                "Id": "1849",
+                                "LinkUrl": "http://staging/further-information",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1848",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n            <p>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci. Maecenas quis sem sit amet risus pellentesque laoreet eget at quam. Vivamus eu massa ante.</p>\n            <ul>\n              <li>Donec vulputate dolor a consequat fermentum.</li>\n              <li>Nunc ullamcorper est at rhoncus congue.</li>\n              <li>Nullam dignissim nulla at ante semper, non adipiscing ante ullamcorper.</li>\n              <li>Nulla nec tellus vitae justo rutrum consectetur vel vitae nisl.</li>\n            </ul>\n          "]
+                                        }
+                                    },
+                                    "headline": "Further Information"
+                                }
+                            }
+                        },
+                        "media": {
+                            "$type": "EntityModelData",
+                            "SchemaId": "1635",
+                            "Id": "1862",
+                            "ComponentTemplate": {
+                                "Id": "1758",
+                                "RevisionDate": "0001-01-01T00:00:00.000Z"
+                            },
+                            "LinkUrl": "",
+                            "BinaryContent": {
+                                "FileName": "ballon-burner.jpg",
+                                "FileSize": 883791,
+                                "MimeType": "image/jpeg",
+                                "Url": "/media/ballon-burner_tcm33-1862.jpg"
+                            }
+                        },
+                        "subheading": "Discover More",
+                        "content": "Explore a wealth of information on this site"
+                    }, {
+                        "link": {
+                            "$type": "ContentModelData",
+                            "linkText": "View News",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "News Index ",
+                                        "description": "Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci. Maecenas quis sem sit amet risus pellentesque laoreet eget at quam. Vivamus eu massa ante ",
+                                        "introText": "Keep up to date with the latest... "
+                                    }
+                                },
+                                "Id": "1863",
+                                "LinkUrl": "http://staging/articles/news",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1857",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n            <p>Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt. Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio. </p>\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros.</p>\n          "]
+                                        }
+                                    },
+                                    "headline": "News"
+                                }
+                            }
+                        },
+                        "media": {
+                            "$type": "EntityModelData",
+                            "SchemaId": "1635",
+                            "Id": "1844",
+                            "ComponentTemplate": {
+                                "Id": "1758",
+                                "RevisionDate": "0001-01-01T00:00:00.000Z"
+                            },
+                            "LinkUrl": "",
+                            "BinaryContent": {
+                                "FileName": "bulls-eye.JPG",
+                                "FileSize": 1276322,
+                                "MimeType": "image/jpeg",
+                                "Url": "/media/bulls-eye_tcm33-1844.JPG"
+                            }
+                        },
+                        "subheading": "Stay Informed",
+                        "content": "Keep up to date with our latest news..."
+                    }, {
+                        "link": {
+                            "$type": "ContentModelData",
+                            "linkText": "Office Location",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1710",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "Head Office",
+                                        "description": "Head office location",
+                                        "introText": "Head Office Location"
+                                    },
+                                    "location": {
+                                        "$type": "ContentModelData",
+                                        "latitude": "51.52381",
+                                        "query": "221B Baker Street, London, United Kingdom",
+                                        "longitude": "-0.158441"
+                                    }
+                                },
+                                "Id": "1846",
+                                "ComponentTemplate": {
+                                    "Id": "1758",
+                                    "RevisionDate": "0001-01-01T00:00:00.000Z"
+                                },
+                                "LinkUrl": "http://staging/about/office-location",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "SchemaId": "1635",
+                                        "Id": "1845",
+                                        "ComponentTemplate": {
+                                            "Id": "1758",
+                                            "RevisionDate": "0001-01-01T00:00:00.000Z"
+                                        },
+                                        "LinkUrl": "",
+                                        "BinaryContent": {
+                                            "FileName": "skyscrapers.jpg",
+                                            "FileSize": 2119766,
+                                            "MimeType": "image/jpeg",
+                                            "Url": "/media/skyscrapers_tcm33-1845.jpg"
+                                        }
+                                    },
+                                    "address": {
+                                        "$type": "RichTextData",
+                                        "Fragments": ["\n\t\t<p>221B Baker Street,</p>\n\t\t\n\n\t\t<p>London,</p>\n\t\t\n\n\t\t<p>United Kingdom</p>\n\t"]
+                                    },
+                                    "name": "Head Office - London",
+                                    "faxNumber": "+44 9876 65432",
+                                    "telephone": "+44 1234 56789",
+                                    "email": "contact@abcde.fg"
+                                }
+                            }
+                        },
+                        "media": {
+                            "$type": "EntityModelData",
+                            "SchemaId": "1635",
+                            "Id": "1847",
+                            "ComponentTemplate": {
+                                "Id": "1758",
+                                "RevisionDate": "0001-01-01T00:00:00.000Z"
+                            },
+                            "LinkUrl": "",
+                            "BinaryContent": {
+                                "FileName": "map.jpg",
+                                "FileSize": 1204719,
+                                "MimeType": "image/jpeg",
+                                "Url": "/media/map_tcm33-1847.jpg"
+                            }
+                        },
+                        "subheading": "Come Visit!",
+                        "content": "Come by our office..."
+                    }]
+                }
+            }
+        }]
+    }, {
+        "MvcData": {
+            "ViewName": "Main"
+        },
+        "Name": "Main",
+        "Entities": [{
+            "SchemaId": "1636",
+            "XpmMetadata": {
+                "ComponentID": "tcm:33-1866",
+                "ComponentModified": "2017-10-05T14:00:52.87",
+                "ComponentTemplateID": "tcm:33-1763-32",
+                "ComponentTemplateModified": "2017-10-05T14:00:29.863",
+                "IsRepositoryPublished": false
+            },
+            "Metadata": {
+                "standardMeta": {
+                    "$type": "ContentModelData",
+                    "name": "Home",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper ex tortor, a ullamcorper sem venenatis sed. In interdum leo eu orci pharetra luctus. Nulla ut blandit urna, ac maximus mauris.",
+                    "introText": "Home page"
+                }
+            },
+            "MvcData": {
+                "ViewName": "Article"
+            },
+            "Id": "1866",
+            "ComponentTemplate": {
+                "Id": "1763",
+                "Title": "Article",
+                "RevisionDate": "2017-10-05T14:00:29.863Z",
+                "OutputFormat": "HTML Fragment",
+                "Metadata": {
+                    "view": "Article"
+                }
+            },
+            "LinkUrl": "http://staging",
+            "Content": {
+                "articleBody": {
+                    "$type": "ContentModelData",
+                    "content": {
+                        "$type": "RichTextData",
+                        "Fragments": ["\n              <p>Loremus <span>ipsumis dolor sit amet, consectetur  adipiscing elit. Ut semper ex tortor, a ullamcorper sem venenatis sed. In interdum leo eu orci pharetra luctus. Nulla ut blandit urna, ac maximus mauris. Cras sapien dolor, blandit eu nisi at, pretium facilisis quam. </span></p>\n<p>Donec ipsum ex, pellentesque id diam a, aliquam commodo nibh. Fusce lacinia arcu lorem, volutpat pulvinar quam scelerisque vel. Etiam auctor pulvinar mi, eget pretium odio. Curabitur iaculis nisl augue, fermentum porta arcu condimentum convallis. Ut sit amet nisi a enim blandit accumsan. Integer scelerisque ac nibh a viverra. Ut sed nisi id velit egestas mollis.</p>"]
+                    }
+                },
+                "headline": "Welcome"
+            }
+        }]
+    }, {
+        "MvcData": {
+            "ViewName": "3-Column"
+        },
+        "Name": "3-Column",
+        "Entities": [{
+            "SchemaId": "1710",
+            "XpmMetadata": {
+                "ComponentID": "tcm:33-1846",
+                "ComponentModified": "2017-10-05T14:00:47.85",
+                "ComponentTemplateID": "tcm:33-1797-32",
+                "ComponentTemplateModified": "2017-10-05T14:00:36.04",
+                "IsRepositoryPublished": false
+            },
+            "Metadata": {
+                "standardMeta": {
+                    "$type": "ContentModelData",
+                    "name": "Head Office",
+                    "description": "Head office location",
+                    "introText": "Head Office Location"
+                },
+                "location": {
+                    "$type": "ContentModelData",
+                    "latitude": "51.52381",
+                    "query": "221B Baker Street, London, United Kingdom",
+                    "longitude": "-0.158441"
+                }
+            },
+            "MvcData": {
+                "ViewName": "TeaserMap"
+            },
+            "Id": "1846",
+            "ComponentTemplate": {
+                "Id": "1797",
+                "Title": "Teaser Map [3-Column]",
+                "RevisionDate": "2017-10-05T14:00:36.040Z",
+                "OutputFormat": "HTML Fragment",
+                "Metadata": {
+                    "view": "TeaserMap",
+                    "regionView": "3-Column"
+                }
+            },
+            "LinkUrl": "http://staging/about/office-location",
+            "Content": {
+                "image": {
+                    "$type": "EntityModelData",
+                    "SchemaId": "1635",
+                    "Id": "1845",
+                    "ComponentTemplate": {
+                        "Id": "1758",
+                        "RevisionDate": "0001-01-01T00:00:00.000Z"
+                    },
+                    "LinkUrl": "",
+                    "BinaryContent": {
+                        "FileName": "skyscrapers.jpg",
+                        "FileSize": 2119766,
+                        "MimeType": "image/jpeg",
+                        "Url": "/media/skyscrapers_tcm33-1845.jpg"
+                    }
+                },
+                "address": {
+                    "$type": "RichTextData",
+                    "Fragments": ["\n\t\t<p>221B Baker Street,</p>\n\t\t\n\n\t\t<p>London,</p>\n\t\t\n\n\t\t<p>United Kingdom</p>\n\t"]
+                },
+                "name": "Head Office - London",
+                "faxNumber": "+44 9876 65432",
+                "telephone": "+44 1234 56789",
+                "email": "contact@abcde.fg"
+            }
+        }, {
+            "SchemaId": "1705",
+            "XpmMetadata": {
+                "ComponentID": "tcm:33-1872",
+                "ComponentModified": "2017-10-05T14:00:54.543",
+                "ComponentTemplateID": "tcm:33-1784-32",
+                "ComponentTemplateModified": "2017-10-05T14:00:33.573",
+                "IsRepositoryPublished": false
+            },
+            "Metadata": {
+                "pageSize": "4",
+                "sort": {
+                    "$type": "KeywordModelData",
+                    "Id": "1754",
+                    "Key": "dateCreated",
+                    "TaxonomyId": "427",
+                    "Title": "Content Date (metadata)"
+                },
+                "contentType": {
+                    "$type": "KeywordModelData",
+                    "Id": "1693",
+                    "Key": "core.newsArticle",
+                    "TaxonomyId": "425",
+                    "Title": "News Article"
+                }
+            },
+            "MvcData": {
+                "ActionName": "List",
+                "ControllerName": "List",
+                "ViewName": "List"
+            },
+            "Id": "1872",
+            "ComponentTemplate": {
+                "Id": "1784",
+                "Title": "List [3-Column]",
+                "RevisionDate": "2017-10-05T14:00:33.573Z",
+                "OutputFormat": "HTML Fragment",
+                "Metadata": {
+                    "controller": "List",
+                    "view": "List",
+                    "regionView": "3-Column",
+                    "action": "List"
+                }
+            },
+            "LinkUrl": "http://staging",
+            "Content": {
+                "link": {
+                    "$type": "ContentModelData",
+                    "linkText": "See all news",
+                    "internalLink": {
+                        "$type": "EntityModelData",
+                        "SchemaId": "1636",
+                        "Metadata": {
+                            "standardMeta": {
+                                "$type": "ContentModelData",
+                                "name": "News Index ",
+                                "description": "Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci. Maecenas quis sem sit amet risus pellentesque laoreet eget at quam. Vivamus eu massa ante ",
+                                "introText": "Keep up to date with the latest... "
+                            }
+                        },
+                        "Id": "1863",
+                        "LinkUrl": "http://staging/articles/news",
+                        "Content": {
+                            "image": {
+                                "$type": "EntityModelData",
+                                "Id": "1857",
+                                "LinkUrl": ""
+                            },
+                            "articleBody": {
+                                "$type": "ContentModelData",
+                                "content": {
+                                    "$type": "RichTextData",
+                                    "Fragments": ["\n            <p>Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt. Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio. </p>\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros.</p>\n          "]
+                                }
+                            },
+                            "headline": "News"
+                        }
+                    }
+                },
+                "headline": "Latest News"
+            }
+        }, {
+            "SchemaId": "1744",
+            "XpmMetadata": {
+                "ComponentID": "tcm:33-1841",
+                "ComponentModified": "2017-10-05T14:00:45.453",
+                "ComponentTemplateID": "tcm:33-1762-32",
+                "ComponentTemplateModified": "2017-10-05T14:00:29.76",
+                "IsRepositoryPublished": false
+            },
+            "Metadata": {
+                "youTubeId": "2YBtspm8j8M",
+                "headline": "Company News"
+            },
+            "MvcData": {
+                "ViewName": "YouTubeVideo"
+            },
+            "Id": "1841",
+            "ComponentTemplate": {
+                "Id": "1762",
+                "Title": "YouTube Video [3-Column]",
+                "RevisionDate": "2017-10-05T14:00:29.760Z",
+                "OutputFormat": "HTML Fragment",
+                "Metadata": {
+                    "view": "YouTubeVideo",
+                    "regionView": "3-Column"
+                }
+            },
+            "LinkUrl": "http://staging",
+            "BinaryContent": {
+                "FileName": "company-news-placeholder.png",
+                "FileSize": 674712,
+                "MimeType": "image/png",
+                "Url": "/media/company-news-placeholder_tcm33-1841.png"
+            }
+        }]
+    }, {
+        "XpmMetadata": {
+            "IncludedFromPageID": "tcm:33-1829-64",
+            "IncludedFromPageTitle": "Header",
+            "IncludedFromPageFileName": "header"
+        },
+        "MvcData": {
+            "ViewName": "Header"
+        },
+        "Name": "Header",
+        "IncludePageId": "1829",
+        "Regions": [{
+            "MvcData": {
+                "ViewName": "Logo"
+            },
+            "Name": "Logo",
+            "Entities": [{
+                "SchemaId": "1638",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1883",
+                    "ComponentModified": "2017-10-05T14:00:57.943",
+                    "ComponentTemplateID": "tcm:33-1792-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:34.887",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "HeaderLogo"
+                },
+                "Id": "1883",
+                "ComponentTemplate": {
+                    "Id": "1792",
+                    "Title": "Header Logo [Logo]",
+                    "RevisionDate": "2017-10-05T14:00:34.887Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "HeaderLogo",
+                        "regionView": "Logo"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData",
+                        "alternateText": "Go to the home page",
+                        "internalLink": {
+                            "$type": "EntityModelData",
+                            "SchemaId": "1636",
+                            "Metadata": {
+                                "standardMeta": {
+                                    "$type": "ContentModelData",
+                                    "name": "Home",
+                                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper ex tortor, a ullamcorper sem venenatis sed. In interdum leo eu orci pharetra luctus. Nulla ut blandit urna, ac maximus mauris.",
+                                    "introText": "Home page"
+                                }
+                            },
+                            "Id": "1866",
+                            "LinkUrl": "http://staging",
+                            "Content": {
+                                "articleBody": {
+                                    "$type": "ContentModelData",
+                                    "content": {
+                                        "$type": "RichTextData",
+                                        "Fragments": ["\n              <p>Loremus <span>ipsumis dolor sit amet, consectetur  adipiscing elit. Ut semper ex tortor, a ullamcorper sem venenatis sed. In interdum leo eu orci pharetra luctus. Nulla ut blandit urna, ac maximus mauris. Cras sapien dolor, blandit eu nisi at, pretium facilisis quam. </span></p>\n<p>Donec ipsum ex, pellentesque id diam a, aliquam commodo nibh. Fusce lacinia arcu lorem, volutpat pulvinar quam scelerisque vel. Etiam auctor pulvinar mi, eget pretium odio. Curabitur iaculis nisl augue, fermentum porta arcu condimentum convallis. Ut sit amet nisi a enim blandit accumsan. Integer scelerisque ac nibh a viverra. Ut sed nisi id velit egestas mollis.</p>"]
+                                    }
+                                },
+                                "headline": "Welcome"
+                            }
+                        }
+                    },
+                    "media": {
+                        "$type": "EntityModelData",
+                        "SchemaId": "1635",
+                        "Id": "1859",
+                        "ComponentTemplate": {
+                            "Id": "1758",
+                            "RevisionDate": "0001-01-01T00:00:00.000Z"
+                        },
+                        "LinkUrl": "",
+                        "BinaryContent": {
+                            "FileName": "logo.png",
+                            "FileSize": 7611,
+                            "MimeType": "image/png",
+                            "Url": "/media/logo_tcm33-1859.png"
+                        }
+                    }
+                }
+            }]
+        }, {
+            "MvcData": {
+                "ViewName": "Nav"
+            },
+            "Name": "Nav",
+            "Entities": [{
+                "SchemaId": "1703",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1884",
+                    "ComponentModified": "2017-10-05T14:00:58.097",
+                    "ComponentTemplateID": "tcm:33-1737-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:26.377",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "HeaderLinks"
+                },
+                "Id": "1884",
+                "ComponentTemplate": {
+                    "Id": "1737",
+                    "Title": "Header Links [Nav]",
+                    "RevisionDate": "2017-10-05T14:00:26.377Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "HeaderLinks",
+                        "regionView": "Nav"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData[]",
+                        "$values": [{
+                            "alternateText": "About our company",
+                            "linkText": "About Us",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. ",
+                                        "introText": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. "
+                                    }
+                                },
+                                "Id": "1843",
+                                "LinkUrl": "http://staging/about",
+                                "Content": {
+                                    "articleBody": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "caption": "Phasellus accumsan, ante non aliquet dignissim",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1841",
+                                                "LinkUrl": "http://staging"
+                                            },
+                                            "subheading": "Vision and Mission",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n              <p>Lorem ipsum dolor sit amet, <a title=\"Contact Tab Content\" href=\"http://staging/about/contact\">consectetur adipiscing</a> elit. Sed diam purus, tincidunt volutpat mauris a, lacinia luctus velit. Nam dui purus, pretium sit amet sagittis vel, lobortis eu est. Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt.</p>\n<p>Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio.</p>"]
+                                            }
+                                        }, {
+                                            "subheading": "History",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros:</p>\n            <ul>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }, {
+                                            "caption": "Maecenas quis sem sit amet risus pellentesque laoreet eget at quam",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1842",
+                                                "LinkUrl": ""
+                                            },
+                                            "subheading": "Leadership",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci.</p>\n            <ul>\n              <li>Nulla varius nibh ut massa ornare, rhoncus dictum quam mollis.</li>\n              <li>Suspendisse placerat nulla sed feugiat eleifend.</li>\n              <li>Vestibulum molestie mi sit amet porttitor lacinia.</li>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }]
+                                    },
+                                    "headline": "Company Information"
+                                }
+                            }
+                        }, {
+                            "alternateText": "Contact us",
+                            "linkText": "Contact",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1648",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "Contact information",
+                                        "description": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus"
+                                    }
+                                },
+                                "Id": "1840",
+                                "ComponentTemplate": {
+                                    "Id": "1758",
+                                    "RevisionDate": "0001-01-01T00:00:00.000Z"
+                                },
+                                "LinkUrl": "http://staging/about/contact",
+                                "Content": {
+                                    "itemListElement": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "subheading": "PR & Media",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit</p>\n<ul>\n<li>Integer scelerisque ipsum quis sodales congue.</li>\n<li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n<li>Sed ut felis at sem blandit auctor.</li>\n</ul>"]
+                                            }
+                                        }, {
+                                            "subheading": "Jobs",
+                                            "content": "Vivamus nisi justo, vulputate id elementum sit amet, varius at arcu. Aliquam eu tortor justo. Sed egestas, dolor id adipiscing dapibus, turpis quam feugiat massa, vel fringilla orci lorem in velit. Nam adipiscing malesuada porttitor. Etiam ut fringilla metus, ac mattis risus. Vestibulum sagittis rhoncus diam quis adipiscing. Fusce ultrices, orci a viverra ullamcorper, enim mauris scelerisque diam, vitae pulvinar urna enim in nisi. Vivamus et diam accumsan, hendrerit purus sit amet, aliquet diam. Donec sagittis ligula ac rhoncus posuere. In hac habitasse platea dictumst."
+                                        }, {
+                                            "subheading": "Support",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n              <span>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci. Maecenas quis sem sit amet risus pellentesque laoreet eget at quam</span>\n            "]
+                                            }
+                                        }]
+                                    },
+                                    "headline": "Contact Information"
+                                }
+                            }
+                        }]
+                    }
+                }
+            }, {
+                "SchemaId": "1686",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1803",
+                    "ComponentModified": "2017-10-05T14:00:36.777",
+                    "ComponentTemplateID": "tcm:33-1695-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:20.33",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "LanguageSelector"
+                },
+                "Id": "1803",
+                "ComponentTemplate": {
+                    "Id": "1695",
+                    "Title": "Language Selector [Nav]",
+                    "RevisionDate": "2017-10-05T14:00:20.330Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "LanguageSelector",
+                        "regionView": "Nav"
+                    }
+                },
+                "LinkUrl": ""
+            }, {
+                "SchemaId": "1690",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1691",
+                    "ComponentModified": "2017-10-05T14:00:19.807",
+                    "ComponentTemplateID": "tcm:33-1756-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:29.147",
+                    "IsRepositoryPublished": false
+                },
+                "Metadata": {
+                    "navigationTextFieldPaths": "standardMeta/name, headline",
+                    "externalLinkTemplate": "Redirect Page",
+                    "navigationType": {
+                        "$type": "KeywordModelData",
+                        "Id": "1688",
+                        "Key": "localizable",
+                        "TaxonomyId": "424",
+                        "Title": "Localizable - Based on Component content/metadata field values"
+                    }
+                },
+                "MvcData": {
+                    "ActionName": "Navigation",
+                    "ControllerName": "Navigation",
+                    "ViewName": "TopNavigation",
+                    "Parameters": {
+                        "navType": "Top"
+                    }
+                },
+                "Id": "1691",
+                "ComponentTemplate": {
+                    "Id": "1756",
+                    "Title": "Top Navigation [Nav]",
+                    "RevisionDate": "2017-10-05T14:00:29.147Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "controller": "Navigation",
+                        "view": "TopNavigation",
+                        "routeValues": "navType:Top",
+                        "regionView": "Nav",
+                        "action": "Navigation"
+                    }
+                },
+                "LinkUrl": "http://staging/sitemap"
+            }]
+        }, {
+            "MvcData": {
+                "ViewName": "Info"
+            },
+            "Name": "Info",
+            "Entities": [{
+                "SchemaId": "1682",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1804",
+                    "ComponentModified": "2017-10-05T14:00:38.553",
+                    "ComponentTemplateID": "tcm:33-1752-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:28.293",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "OldBrowserNotificationBar"
+                },
+                "Id": "1804",
+                "ComponentTemplate": {
+                    "Id": "1752",
+                    "Title": "Old Browser Notification Bar [Info]",
+                    "RevisionDate": "2017-10-05T14:00:28.293Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "OldBrowserNotificationBar",
+                        "regionView": "Info"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "continue": "Continue",
+                    "link": {
+                        "$type": "ContentModelData",
+                        "externalLink": "http://updatemybrowser.org/browser",
+                        "linkText": "Help me"
+                    },
+                    "text": "Our site works best with browsers newer than the one you’re using. You can continue using this browser, but be aware that some features might not be available. We apologize for this inconvenience.",
+                    "headline": "Old browser"
+                }
+            }, {
+                "SchemaId": "1682",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1882",
+                    "ComponentModified": "2017-10-05T14:00:57.8",
+                    "ComponentTemplateID": "tcm:33-1795-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:35.373",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "CookieNotificationBar"
+                },
+                "Id": "1882",
+                "ComponentTemplate": {
+                    "Id": "1795",
+                    "Title": "Cookie Notification Bar [Info]",
+                    "RevisionDate": "2017-10-05T14:00:35.373Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "CookieNotificationBar",
+                        "regionView": "Info"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "continue": "Continue",
+                    "link": {
+                        "$type": "ContentModelData",
+                        "linkText": "Find out more",
+                        "internalLink": {
+                            "$type": "EntityModelData",
+                            "SchemaId": "1636",
+                            "Metadata": {
+                                "standardMeta": {
+                                    "$type": "ContentModelData",
+                                    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst."
+                                }
+                            },
+                            "Id": "1869",
+                            "LinkUrl": "http://staging/about/privacy",
+                            "Content": {
+                                "articleBody": {
+                                    "$type": "ContentModelData[]",
+                                    "$values": [{
+                                        "subheading": "Summary",
+                                        "content": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. Proin nec velit enim. Maecenas sed vulputate orci, ac pretium lorem. Quisque eget velit ac justo vulputate posuere eu vel metus. Vivamus sit amet dolor id leo dictum pretium. In et ultrices lectus, quis sagittis purus"
+                                    }, {
+                                        "subheading": "The information we gather",
+                                        "content": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros."
+                                    }]
+                                },
+                                "headline": "Privacy Policy"
+                            }
+                        }
+                    },
+                    "text": "We use cookies to ensure that we give you the best experience on our website. If you continue, we'll assume that you are happy to receive all cookies on this website.",
+                    "headline": "Cookies"
+                }
+            }]
+        }]
+    }, {
+        "XpmMetadata": {
+            "IncludedFromPageID": "tcm:33-1816-64",
+            "IncludedFromPageTitle": "Footer",
+            "IncludedFromPageFileName": "footer"
+        },
+        "MvcData": {
+            "ViewName": "Footer"
+        },
+        "Name": "Footer",
+        "IncludePageId": "1816",
+        "Regions": [{
+            "MvcData": {
+                "ViewName": "Links"
+            },
+            "Name": "Links",
+            "Entities": [{
+                "SchemaId": "1703",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1890",
+                    "ComponentModified": "2017-10-05T14:00:58.84",
+                    "ComponentTemplateID": "tcm:33-1782-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:32.987",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "FooterLinks"
+                },
+                "Id": "1890",
+                "ComponentTemplate": {
+                    "Id": "1782",
+                    "Title": "Footer Links [Links]",
+                    "RevisionDate": "2017-10-05T14:00:32.987Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "FooterLinks",
+                        "regionView": "Links"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData[]",
+                        "$values": [{
+                            "alternateText": "View our privacy policy",
+                            "linkText": "Privacy",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst."
+                                    }
+                                },
+                                "Id": "1869",
+                                "LinkUrl": "http://staging/about/privacy",
+                                "Content": {
+                                    "articleBody": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "subheading": "Summary",
+                                            "content": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. Proin nec velit enim. Maecenas sed vulputate orci, ac pretium lorem. Quisque eget velit ac justo vulputate posuere eu vel metus. Vivamus sit amet dolor id leo dictum pretium. In et ultrices lectus, quis sagittis purus"
+                                        }, {
+                                            "subheading": "The information we gather",
+                                            "content": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros."
+                                        }]
+                                    },
+                                    "headline": "Privacy Policy"
+                                }
+                            }
+                        }, {
+                            "alternateText": "Read our terms of use",
+                            "linkText": "Terms of Use",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "Vivamus nisi justo, vulputate id elementum sit amet, varius at arcu. Aliquam eu tortor justo."
+                                    }
+                                },
+                                "Id": "1850",
+                                "LinkUrl": "http://staging/about/terms",
+                                "Content": {
+                                    "articleBody": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "subheading": "Legal Notices",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros.</p>\n          "]
+                                            }
+                                        }, {
+                                            "subheading": "Limitation of Liability",
+                                            "content": "Vivamus nisi justo, vulputate id elementum sit amet, varius at arcu. Aliquam eu tortor justo. Sed egestas, dolor id adipiscing dapibus, turpis quam feugiat massa, vel fringilla orci lorem in velit. Nam adipiscing malesuada porttitor. Etiam ut fringilla metus, ac mattis risus. Vestibulum sagittis rhoncus diam quis adipiscing. Fusce ultrices, orci a viverra ullamcorper, enim mauris scelerisque diam, vitae pulvinar urna enim in nisi."
+                                        }]
+                                    },
+                                    "headline": "Terms of use"
+                                }
+                            }
+                        }, {
+                            "linkText": "Sitemap",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "Sitemap",
+                                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                                        "introText": "Can't find what you want? Check the Sitemap..."
+                                    }
+                                },
+                                "Id": "1889",
+                                "LinkUrl": "http://staging/sitemap",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1847",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>\n\t\t\t\n\n\t\t\t<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>\n\t\t"]
+                                        }
+                                    },
+                                    "headline": "Sitemap"
+                                }
+                            }
+                        }]
+                    },
+                    "headline": "© 2017 Your Company Name Here"
+                }
+            }]
+        }, {
+            "MvcData": {
+                "ViewName": "4-Column"
+            },
+            "Name": "4-Column",
+            "Entities": [{
+                "SchemaId": "1703",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1891",
+                    "ComponentModified": "2017-10-05T14:00:59.023",
+                    "ComponentTemplateID": "tcm:33-1704-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:21.683",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "FooterLinkGroup"
+                },
+                "Id": "1891",
+                "ComponentTemplate": {
+                    "Id": "1704",
+                    "Title": "Footer Link Group [4-Column]",
+                    "RevisionDate": "2017-10-05T14:00:21.683Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "FooterLinkGroup",
+                        "regionView": "4-Column"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData[]",
+                        "$values": [{
+                            "linkText": "Product A",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. ",
+                                        "introText": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. "
+                                    }
+                                },
+                                "Id": "1843",
+                                "LinkUrl": "http://staging/about",
+                                "Content": {
+                                    "articleBody": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "caption": "Phasellus accumsan, ante non aliquet dignissim",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1841",
+                                                "LinkUrl": "http://staging"
+                                            },
+                                            "subheading": "Vision and Mission",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n              <p>Lorem ipsum dolor sit amet, <a title=\"Contact Tab Content\" href=\"http://staging/about/contact\">consectetur adipiscing</a> elit. Sed diam purus, tincidunt volutpat mauris a, lacinia luctus velit. Nam dui purus, pretium sit amet sagittis vel, lobortis eu est. Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt.</p>\n<p>Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio.</p>"]
+                                            }
+                                        }, {
+                                            "subheading": "History",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros:</p>\n            <ul>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }, {
+                                            "caption": "Maecenas quis sem sit amet risus pellentesque laoreet eget at quam",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1842",
+                                                "LinkUrl": ""
+                                            },
+                                            "subheading": "Leadership",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci.</p>\n            <ul>\n              <li>Nulla varius nibh ut massa ornare, rhoncus dictum quam mollis.</li>\n              <li>Suspendisse placerat nulla sed feugiat eleifend.</li>\n              <li>Vestibulum molestie mi sit amet porttitor lacinia.</li>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }]
+                                    },
+                                    "headline": "Company Information"
+                                }
+                            }
+                        }, {
+                            "linkText": "Product B",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. ",
+                                        "introText": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. "
+                                    }
+                                },
+                                "Id": "1843",
+                                "LinkUrl": "http://staging/about",
+                                "Content": {
+                                    "articleBody": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "caption": "Phasellus accumsan, ante non aliquet dignissim",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1841",
+                                                "LinkUrl": "http://staging"
+                                            },
+                                            "subheading": "Vision and Mission",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n              <p>Lorem ipsum dolor sit amet, <a title=\"Contact Tab Content\" href=\"http://staging/about/contact\">consectetur adipiscing</a> elit. Sed diam purus, tincidunt volutpat mauris a, lacinia luctus velit. Nam dui purus, pretium sit amet sagittis vel, lobortis eu est. Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt.</p>\n<p>Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio.</p>"]
+                                            }
+                                        }, {
+                                            "subheading": "History",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros:</p>\n            <ul>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }, {
+                                            "caption": "Maecenas quis sem sit amet risus pellentesque laoreet eget at quam",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1842",
+                                                "LinkUrl": ""
+                                            },
+                                            "subheading": "Leadership",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci.</p>\n            <ul>\n              <li>Nulla varius nibh ut massa ornare, rhoncus dictum quam mollis.</li>\n              <li>Suspendisse placerat nulla sed feugiat eleifend.</li>\n              <li>Vestibulum molestie mi sit amet porttitor lacinia.</li>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }]
+                                    },
+                                    "headline": "Company Information"
+                                }
+                            }
+                        }, {
+                            "linkText": "Product C",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. ",
+                                        "introText": "In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. "
+                                    }
+                                },
+                                "Id": "1843",
+                                "LinkUrl": "http://staging/about",
+                                "Content": {
+                                    "articleBody": {
+                                        "$type": "ContentModelData[]",
+                                        "$values": [{
+                                            "caption": "Phasellus accumsan, ante non aliquet dignissim",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1841",
+                                                "LinkUrl": "http://staging"
+                                            },
+                                            "subheading": "Vision and Mission",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n              <p>Lorem ipsum dolor sit amet, <a title=\"Contact Tab Content\" href=\"http://staging/about/contact\">consectetur adipiscing</a> elit. Sed diam purus, tincidunt volutpat mauris a, lacinia luctus velit. Nam dui purus, pretium sit amet sagittis vel, lobortis eu est. Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt.</p>\n<p>Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio.</p>"]
+                                            }
+                                        }, {
+                                            "subheading": "History",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros:</p>\n            <ul>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }, {
+                                            "caption": "Maecenas quis sem sit amet risus pellentesque laoreet eget at quam",
+                                            "media": {
+                                                "$type": "EntityModelData",
+                                                "Id": "1842",
+                                                "LinkUrl": ""
+                                            },
+                                            "subheading": "Leadership",
+                                            "content": {
+                                                "$type": "RichTextData",
+                                                "Fragments": ["\n            <p>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci.</p>\n            <ul>\n              <li>Nulla varius nibh ut massa ornare, rhoncus dictum quam mollis.</li>\n              <li>Suspendisse placerat nulla sed feugiat eleifend.</li>\n              <li>Vestibulum molestie mi sit amet porttitor lacinia.</li>\n              <li>Integer scelerisque ipsum quis sodales congue.</li>\n              <li>Nunc sollicitudin orci sit amet risus dapibus, a vehicula ipsum ultrices.</li>\n              <li>Sed ut felis at sem blandit auctor.</li>\n            </ul>\n          "]
+                                            }
+                                        }]
+                                    },
+                                    "headline": "Company Information"
+                                }
+                            }
+                        }]
+                    },
+                    "headline": "Popular Products"
+                }
+            }, {
+                "SchemaId": "1703",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1892",
+                    "ComponentModified": "2017-10-05T14:00:59.15",
+                    "ComponentTemplateID": "tcm:33-1704-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:21.683",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "FooterLinkGroup"
+                },
+                "Id": "1892",
+                "ComponentTemplate": {
+                    "Id": "1704",
+                    "Title": "Footer Link Group [4-Column]",
+                    "RevisionDate": "2017-10-05T14:00:21.683Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "FooterLinkGroup",
+                        "regionView": "4-Column"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData[]",
+                        "$values": [{
+                            "linkText": "News",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "News Index ",
+                                        "description": "Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci. Maecenas quis sem sit amet risus pellentesque laoreet eget at quam. Vivamus eu massa ante ",
+                                        "introText": "Keep up to date with the latest... "
+                                    }
+                                },
+                                "Id": "1863",
+                                "LinkUrl": "http://staging/articles/news",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1857",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n            <p>Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt. Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus. Vestibulum nec dui nibh. Mauris consectetur risus dui, eget ultricies sapien imperdiet vitae. Praesent metus tortor, adipiscing sed feugiat vitae, accumsan vitae ipsum. Morbi sodales, sapien nec vehicula blandit, turpis nisl mattis metus, vel ultrices eros magna sit amet odio. </p>\n            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros.</p>\n          "]
+                                        }
+                                    },
+                                    "headline": "News"
+                                }
+                            }
+                        }, {
+                            "linkText": "Further Information",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien, eget pellentesque dui pellentesque sodales. In hac habitasse platea dictumst. Cras placerat at libero at porta. Vivamus eget magna eros. ",
+                                        "introText": "Useful information about our company "
+                                    }
+                                },
+                                "Id": "1849",
+                                "LinkUrl": "http://staging/further-information",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1848",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n            <p>Maecenas quis mi ipsum. Morbi dapibus diam fermentum urna porta, a rutrum quam blandit. Phasellus fermentum vitae nisl non lacinia. Nulla in nulla sit amet eros suscipit consectetur a quis orci. Mauris id turpis vitae magna ultricies accumsan. Nunc velit quam, congue vel magna at, mattis dapibus orci. Maecenas quis sem sit amet risus pellentesque laoreet eget at quam. Vivamus eu massa ante.</p>\n            <ul>\n              <li>Donec vulputate dolor a consequat fermentum.</li>\n              <li>Nunc ullamcorper est at rhoncus congue.</li>\n              <li>Nullam dignissim nulla at ante semper, non adipiscing ante ullamcorper.</li>\n              <li>Nulla nec tellus vitae justo rutrum consectetur vel vitae nisl.</li>\n            </ul>\n          "]
+                                        }
+                                    },
+                                    "headline": "Further Information"
+                                }
+                            }
+                        }]
+                    },
+                    "headline": "Site Sections"
+                }
+            }, {
+                "SchemaId": "1703",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1893",
+                    "ComponentModified": "2017-10-05T14:00:59.283",
+                    "ComponentTemplateID": "tcm:33-1704-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:21.683",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "FooterLinkGroup"
+                },
+                "Id": "1893",
+                "ComponentTemplate": {
+                    "Id": "1704",
+                    "Title": "Footer Link Group [4-Column]",
+                    "RevisionDate": "2017-10-05T14:00:21.683Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "FooterLinkGroup",
+                        "regionView": "4-Column"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData[]",
+                        "$values": [{
+                            "linkText": "Frequently Asked Questions",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "FAQ ",
+                                        "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut porttitor nisi nunc. Aenean commodo arcu vehicula enim tincidunt sodales. Proin tristique mi id nisi dignissim, eget congue purus blandit. Vestibulum dignissim sollicitudin sapien. ",
+                                        "introText": "Hit a wall? Check out our FAQ... "
+                                    }
+                                },
+                                "Id": "1877",
+                                "LinkUrl": "http://staging/further-information/faq",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1870",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam purus, tincidunt volutpat mauris a, lacinia luctus velit. Nam dui purus, pretium sit amet sagittis vel, lobortis eu est. Morbi sagittis pellentesque facilisis. Phasellus accumsan, ante non aliquet dignissim, turpis diam placerat odio, sit amet rutrum tortor magna nec diam. Nulla adipiscing in quam sit amet faucibus. Nunc congue velit ac leo sodales, quis mattis massa tincidunt. Nullam fringilla volutpat arcu, vitae ultricies ante lobortis ac. Quisque elementum nunc congue, luctus mi quis, vestibulum lacus"
+                                    },
+                                    "headline": "Frequently Asked Questions"
+                                }
+                            }
+                        }, {
+                            "linkText": "Image Library",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "description": "Aenean suscipit rutrum justo in molestie. Suspendisse mollis sapien ac neque pellentesque iaculis. Quisque blandit varius volutpat. Nunc ullamcorper, sapien in tincidunt varius, lectus lectus tincidunt nisl, ac vestibulum turpis leo a massa. ",
+                                        "introText": "Visually explore our company... "
+                                    }
+                                },
+                                "Id": "1856",
+                                "LinkUrl": "http://staging/further-information/image-library",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1855",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n            <span style=\"color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; line-height: 14px; text-align: justify;\">In sodales elementum lorem, at sollicitudin quam placerat in. Suspendisse vitae purus eu dolor mattis mollis. Nulla sit amet orci ac arcu suscipit commodo ut in tellus. Praesent ultrices lacus massa, at consequat augue consectetur a. Proin nec velit enim. Maecenas sed vulputate orci, ac pretium lorem. Quisque eget velit ac justo vulputate posuere eu vel metus. Vivamus sit amet dolor id leo dictum pretium. In et ultrices lectus, quis sagittis purus. Aliquam varius porttitor nibh at malesuada.</span>\n          "]
+                                        }
+                                    },
+                                    "headline": "Image Library"
+                                }
+                            }
+                        }, {
+                            "linkText": "Downloads",
+                            "internalLink": {
+                                "$type": "EntityModelData",
+                                "SchemaId": "1636",
+                                "Metadata": {
+                                    "standardMeta": {
+                                        "$type": "ContentModelData",
+                                        "name": "Downloads ",
+                                        "description": "Praesent ultrices lacus massa, at consequat augue consectetur a. Proin nec velit enim. Maecenas sed vulputate orci, ac pretium lorem.  ",
+                                        "introText": "Looking for the data? You can find it here... "
+                                    }
+                                },
+                                "Id": "1852",
+                                "LinkUrl": "http://staging/further-information/downloads",
+                                "Content": {
+                                    "image": {
+                                        "$type": "EntityModelData",
+                                        "Id": "1844",
+                                        "LinkUrl": ""
+                                    },
+                                    "articleBody": {
+                                        "$type": "ContentModelData",
+                                        "content": {
+                                            "$type": "RichTextData",
+                                            "Fragments": ["\n              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae elementum mi, quis lacinia dui. Vivamus id tristique risus. Ut vitae lectus aliquet, mattis eros at, malesuada nunc. Pellentesque malesuada vehicula nibh, a lobortis tortor elementum at. Fusce varius fringilla lectus ac scelerisque. Vivamus molestie, mi vel gravida rhoncus, felis elit lacinia ante, eu auctor massa nulla eget est. Vestibulum sit amet sapien eu dolor sodales congue. Aenean luctus ligula vel luctus vulputate</span>\n            "]
+                                        }
+                                    },
+                                    "headline": "Download useful information"
+                                }
+                            }
+                        }]
+                    },
+                    "headline": "Useful Links"
+                }
+            }, {
+                "SchemaId": "1713",
+                "XpmMetadata": {
+                    "ComponentID": "tcm:33-1815",
+                    "ComponentModified": "2017-10-05T14:00:40.563",
+                    "ComponentTemplateID": "tcm:33-1769-32",
+                    "ComponentTemplateModified": "2017-10-05T14:00:30.6",
+                    "IsRepositoryPublished": false
+                },
+                "MvcData": {
+                    "ViewName": "SocialLinks"
+                },
+                "Id": "1815",
+                "ComponentTemplate": {
+                    "Id": "1769",
+                    "Title": "Social Links [4-Column]",
+                    "RevisionDate": "2017-10-05T14:00:30.600Z",
+                    "OutputFormat": "HTML Fragment",
+                    "Metadata": {
+                        "view": "SocialLinks",
+                        "regionView": "4-Column"
+                    }
+                },
+                "LinkUrl": "",
+                "Content": {
+                    "link": {
+                        "$type": "ContentModelData[]",
+                        "$values": [{
+                            "externalLink": "https://twitter.com/YourCompanyHandle",
+                            "tag": {
+                                "$type": "KeywordModelData",
+                                "Id": "1775",
+                                "Key": "twitter",
+                                "TaxonomyId": "423",
+                                "Title": "Twitter"
+                            }
+                        }, {
+                            "externalLink": "http://www.linkedin.com/company/YourCompanyPage",
+                            "tag": {
+                                "$type": "KeywordModelData",
+                                "Id": "1776",
+                                "Key": "linkedin",
+                                "TaxonomyId": "423",
+                                "Title": "LinkedIn"
+                            }
+                        }, {
+                            "externalLink": "https://www.facebook.com/YourCompanyPage",
+                            "tag": {
+                                "$type": "KeywordModelData",
+                                "Id": "1747",
+                                "Key": "facebook",
+                                "TaxonomyId": "423",
+                                "Title": "Facebook"
+                            }
+                        }]
+                    }
+                }
+            }]
+        }]
+    }],
+    "UrlPath": "/index",
+    "SchemaId": "1807",
+    "XpmMetadata": {
+        "PageID": "tcm:33-1826-64",
+        "PageModified": "2017-10-05T14:00:57.313",
+        "PageTemplateID": "tcm:33-1632-128",
+        "PageTemplateModified": "2017-10-05T14:00:02.503"
+    },
+    "Metadata": {
+        "sitemapKeyword": {
+            "$type": "KeywordModelData",
+            "Id": "1879",
+            "Key": "",
+            "TaxonomyId": "442",
+            "Title": "000 Home",
+            "Metadata": {}
+        }
+    },
+    "MvcData": {
+        "ViewName": "GeneralPage"
+    }
+}
