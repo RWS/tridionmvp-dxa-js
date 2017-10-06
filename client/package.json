@@ -18,7 +18,11 @@
     "gulp-eslint": "^4.0.0",
     "gulp-lint": "^0.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^2.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
