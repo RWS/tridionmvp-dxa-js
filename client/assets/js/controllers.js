@@ -1,4 +1,4 @@
-import {Media, Paragraph, Article} from "./view.js"
+import {Region} from "./view.js";
 
 
 const demoData = {
