@@ -1,4 +1,4 @@
-import {MediaTemplate, ParagraphTemplate, ArticleTemplate} from "./views.js"
+import {Media, Paragraph, Article} from "./view.js"
 
 
 const demoData = {
@@ -23,7 +23,7 @@ const demoData = {
 
 
 
-const templDemo = new ArticleTemplate(demoData);
+const templDemo = new Article(demoData);
 
 templDemo.mount(document.body);
 
