@@ -18,13 +18,34 @@ const demoData = {
         }
     ]
 };
+DXAJS.Fakerton = {
+  init() {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'send-ajax-data.php');
+    xhr.send(null);
+
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        const data = JSON.parse(xhr.responseText);
+          console.log(data);
+        } else {
+          console.log('Error: ' + xhr.status); // An error occurred during the request.
+        }
+    };
+  },
+}
+
 
 DXAJS.Controllers = {
   init() {
-    const articlePresentation = DXAJS.Views.Article(demoData);
-    console.log(articlePresentation);
+    // const articlePresentation = DXAJS.Views.Article(demoData);
+    // console.log(articlePresentation);
     
-    DXAJS.Controllers.mount(document.body, articlePresentation);
+    // DXAJS.Controllers.mount(document.body, articlePresentation);
+
+    DXA.Fakerton.init();
+
   },
   getRegions() {
     return [...document.querySelectorAll('[data-region]')];
