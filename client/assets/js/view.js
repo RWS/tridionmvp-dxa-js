@@ -28,7 +28,6 @@ DXAJS.Views = {
       bodyResult+= DXAJS.Partials[contentType](fragment);
     });
 
-    console.log(data);
 
     return `
   <article class="article">

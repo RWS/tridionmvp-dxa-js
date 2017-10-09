@@ -24,27 +24,15 @@ DXAJS.Fakerton = {
     xhr.open('GET', 'assets/fakedata.json');
     xhr.send(null);
 
-
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
-        const regionElements = DXAJS.Controllers.getRegions();
-        console.log('regionElements',regionElements);
         const pageData = JSON.parse(xhr.responseText);
-        const mainRegion = pageData.Regions[1];
-        const entities = mainRegion.Entities;
+        DXAJS.PageData = pageData;
 
-        const entityContent = entities[0].Content;
-        let articleRegion;
-        console.log(entityContent);
-        
-
-
-          const articlePresentation = DXAJS.Views.Article(entityContent);
-          
-          DXAJS.Controllers.mount(regionElements[0],articlePresentation);
-        } else {
-          console.log('Error: ' + xhr.status); // An error occurred during the request.
-        }
+        DXAJS.Regions.renderRegions(pageData);
+      } else {
+        console.log('Error: ' + xhr.status); 
+      }
     };
   },
 }
@@ -59,10 +47,6 @@ DXAJS.Controllers = {
 
     DXAJS.Fakerton.init();
 
-  },
-  getRegions() {
-    console.log('gettin regions', document.querySelectorAll('[data-region]'))
-    return [...document.querySelectorAll('[data-region]')];
   },
   mount(htmlNode, view) {
     htmlNode.innerHTML = view;
