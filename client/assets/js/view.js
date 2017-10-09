@@ -24,8 +24,8 @@ DXAJS.Views = {
     const contentType = articleBodyContent.$type;
     let bodyResult = '';
 
-    data.articleBody.content.Fragments.forEach((fragment)=> {
-      bodyResult+= DXAJS.Partials[contentType](fragment);
+    data.articleBody.content.Fragments.forEach((fragment) => {
+      bodyResult += DXAJS.Partials[contentType](fragment);
     });
 
 
