@@ -45,9 +45,4 @@ DXAJS.Regions = {
       this.renderEntities(entities, regionElement);
     });
   },
-  Main() {
-    return `<main>
-    
-    </main>`;
-  },
 };
