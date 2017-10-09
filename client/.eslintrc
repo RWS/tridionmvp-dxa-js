@@ -6,7 +6,9 @@
   },  
   "extends": "airbnb",
     "rules": {
-      "func-names": ["error", "never"]
+      "func-names": ["error", "never"],
+      "no-param-reassign": 0,
+      "prefer-template": 1,
     },
     "env" : {
       "browser": true,
