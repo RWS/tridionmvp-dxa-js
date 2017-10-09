@@ -4,7 +4,7 @@
         "jsx": false
     }
   },  
-  "extends": "airbnb",
+  "extends": "airbnb-base",
     "rules": {
       "func-names": ["error", "never"],
       "no-param-reassign": 0,
