@@ -1,6 +1,21 @@
 {
-    "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+        "jsx": false
+    }
+  },  
+  "extends": "airbnb",
     "rules": {
       "func-names": ["error", "never"]
-    }
+    },
+    "env" : {
+      "browser": true,
+      "node": false
+    },
+    "globals" : {
+      "window": true,
+      "document" : true,
+      "DXAJS" : true
+    },
+    "plugins": []
   }
