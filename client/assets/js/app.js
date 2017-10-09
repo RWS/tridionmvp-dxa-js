@@ -1,1 +1,1 @@
-var DXAJS = DXAJS || {};
+const DXAJS = DXAJS || {};
