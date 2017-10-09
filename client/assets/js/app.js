@@ -1,1 +1,2 @@
-const DXAJS = DXAJS || {};
+const DXAJS = {};
+DXAJS.version = '0.0.1';
